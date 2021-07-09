@@ -1,0 +1,25 @@
+button {
+    background: none!important;
+    /* border: none; */
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: rgb(122, 170, 194);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  #box {
+    display: flex;
+    width: 100px;
+    margin: 0 -5px;
+  }
+
+  #flexContainer
+  {  
+    width: 150px;
+    flex: 1;
+    height: auto;
+   flex-direction: row;
+  }
